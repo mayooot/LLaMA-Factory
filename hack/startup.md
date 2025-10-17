@@ -1,5 +1,5 @@
 # 微调示例
-
+参考资料：https://zhuanlan.zhihu.com/p/695287607
 ### 环境
 
 ~~~text
