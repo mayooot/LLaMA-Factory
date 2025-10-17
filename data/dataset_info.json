@@ -95,9 +95,12 @@
     "ms_hub_url": "llamafactory/alpaca_gpt4_en"
   },
   "alpaca_gpt4_zh": {
-    "hf_hub_url": "llamafactory/alpaca_gpt4_zh",
-    "ms_hub_url": "llamafactory/alpaca_gpt4_zh",
-    "om_hub_url": "State_Cloud/alpaca-gpt4-data-zh"
+    "file_name": "alpaca_gpt4_zh/alpaca_gpt4_data_zh.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   },
   "glaive_toolcall_en": {
     "hf_hub_url": "llamafactory/glaive_toolcall_en",
@@ -730,5 +733,12 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "adgen_local": {
+    "file_name": "AdvertiseGen/train.json",
+    "columns": {
+      "prompt": "content",
+      "response": "summary"
+    }
   }
 }
